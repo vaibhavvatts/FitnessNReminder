@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027BF6F72170E9A800BFD1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027BF6F62170E9A800BFD1F7 /* AppDelegate.swift */; };
+		027BF6F92170E9A800BFD1F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027BF6F82170E9A800BFD1F7 /* ViewController.swift */; };
+		027BF6FC2170E9A800BFD1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027BF6FA2170E9A800BFD1F7 /* Main.storyboard */; };
+		027BF6FF2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 027BF6FD2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodeld */; };
+		027BF7012170E9A900BFD1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027BF7002170E9A900BFD1F7 /* Assets.xcassets */; };
+		027BF7042170E9A900BFD1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027BF7022170E9A900BFD1F7 /* LaunchScreen.storyboard */; };
+		027BF70F2170E9A900BFD1F7 /* FitnessNReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027BF70E2170E9A900BFD1F7 /* FitnessNReminderTests.swift */; };
+		027BF71A2170E9A900BFD1F7 /* FitnessNReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027BF7192170E9A900BFD1F7 /* FitnessNReminderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		027BF70B2170E9A900BFD1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 027BF6EB2170E9A800BFD1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027BF6F22170E9A800BFD1F7;
+			remoteInfo = FitnessNReminder;
+		};
+		027BF7162170E9A900BFD1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 027BF6EB2170E9A800BFD1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027BF6F22170E9A800BFD1F7;
+			remoteInfo = FitnessNReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027BF6F32170E9A800BFD1F7 /* FitnessNReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessNReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		027BF6F62170E9A800BFD1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		027BF6F82170E9A800BFD1F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		027BF6FB2170E9A800BFD1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		027BF6FE2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessNReminder.xcdatamodel; sourceTree = "<group>"; };
+		027BF7002170E9A900BFD1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		027BF7032170E9A900BFD1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		027BF7052170E9A900BFD1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027BF70A2170E9A900BFD1F7 /* FitnessNReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessNReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		027BF70E2170E9A900BFD1F7 /* FitnessNReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNReminderTests.swift; sourceTree = "<group>"; };
+		027BF7102170E9A900BFD1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027BF7152170E9A900BFD1F7 /* FitnessNReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessNReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		027BF7192170E9A900BFD1F7 /* FitnessNReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNReminderUITests.swift; sourceTree = "<group>"; };
+		027BF71B2170E9A900BFD1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		027BF6F02170E9A800BFD1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7072170E9A900BFD1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7122170E9A900BFD1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027BF6EA2170E9A800BFD1F7 = {
+			isa = PBXGroup;
+			children = (
+				027BF6F52170E9A800BFD1F7 /* FitnessNReminder */,
+				027BF70D2170E9A900BFD1F7 /* FitnessNReminderTests */,
+				027BF7182170E9A900BFD1F7 /* FitnessNReminderUITests */,
+				027BF6F42170E9A800BFD1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		027BF6F42170E9A800BFD1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				027BF6F32170E9A800BFD1F7 /* FitnessNReminder.app */,
+				027BF70A2170E9A900BFD1F7 /* FitnessNReminderTests.xctest */,
+				027BF7152170E9A900BFD1F7 /* FitnessNReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		027BF6F52170E9A800BFD1F7 /* FitnessNReminder */ = {
+			isa = PBXGroup;
+			children = (
+				027BF6F62170E9A800BFD1F7 /* AppDelegate.swift */,
+				027BF6F82170E9A800BFD1F7 /* ViewController.swift */,
+				027BF6FA2170E9A800BFD1F7 /* Main.storyboard */,
+				027BF7002170E9A900BFD1F7 /* Assets.xcassets */,
+				027BF7022170E9A900BFD1F7 /* LaunchScreen.storyboard */,
+				027BF7052170E9A900BFD1F7 /* Info.plist */,
+				027BF6FD2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodeld */,
+			);
+			path = FitnessNReminder;
+			sourceTree = "<group>";
+		};
+		027BF70D2170E9A900BFD1F7 /* FitnessNReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				027BF70E2170E9A900BFD1F7 /* FitnessNReminderTests.swift */,
+				027BF7102170E9A900BFD1F7 /* Info.plist */,
+			);
+			path = FitnessNReminderTests;
+			sourceTree = "<group>";
+		};
+		027BF7182170E9A900BFD1F7 /* FitnessNReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				027BF7192170E9A900BFD1F7 /* FitnessNReminderUITests.swift */,
+				027BF71B2170E9A900BFD1F7 /* Info.plist */,
+			);
+			path = FitnessNReminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		027BF6F22170E9A800BFD1F7 /* FitnessNReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027BF71E2170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminder" */;
+			buildPhases = (
+				027BF6EF2170E9A800BFD1F7 /* Sources */,
+				027BF6F02170E9A800BFD1F7 /* Frameworks */,
+				027BF6F12170E9A800BFD1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessNReminder;
+			productName = FitnessNReminder;
+			productReference = 027BF6F32170E9A800BFD1F7 /* FitnessNReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		027BF7092170E9A900BFD1F7 /* FitnessNReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027BF7212170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminderTests" */;
+			buildPhases = (
+				027BF7062170E9A900BFD1F7 /* Sources */,
+				027BF7072170E9A900BFD1F7 /* Frameworks */,
+				027BF7082170E9A900BFD1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027BF70C2170E9A900BFD1F7 /* PBXTargetDependency */,
+			);
+			name = FitnessNReminderTests;
+			productName = FitnessNReminderTests;
+			productReference = 027BF70A2170E9A900BFD1F7 /* FitnessNReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		027BF7142170E9A900BFD1F7 /* FitnessNReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027BF7242170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminderUITests" */;
+			buildPhases = (
+				027BF7112170E9A900BFD1F7 /* Sources */,
+				027BF7122170E9A900BFD1F7 /* Frameworks */,
+				027BF7132170E9A900BFD1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027BF7172170E9A900BFD1F7 /* PBXTargetDependency */,
+			);
+			name = FitnessNReminderUITests;
+			productName = FitnessNReminderUITests;
+			productReference = 027BF7152170E9A900BFD1F7 /* FitnessNReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		027BF6EB2170E9A800BFD1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = vaibhav;
+				TargetAttributes = {
+					027BF6F22170E9A800BFD1F7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					027BF7092170E9A900BFD1F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 027BF6F22170E9A800BFD1F7;
+					};
+					027BF7142170E9A900BFD1F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 027BF6F22170E9A800BFD1F7;
+					};
+				};
+			};
+			buildConfigurationList = 027BF6EE2170E9A800BFD1F7 /* Build configuration list for PBXProject "FitnessNReminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 027BF6EA2170E9A800BFD1F7;
+			productRefGroup = 027BF6F42170E9A800BFD1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				027BF6F22170E9A800BFD1F7 /* FitnessNReminder */,
+				027BF7092170E9A900BFD1F7 /* FitnessNReminderTests */,
+				027BF7142170E9A900BFD1F7 /* FitnessNReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		027BF6F12170E9A800BFD1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027BF7042170E9A900BFD1F7 /* LaunchScreen.storyboard in Resources */,
+				027BF7012170E9A900BFD1F7 /* Assets.xcassets in Resources */,
+				027BF6FC2170E9A800BFD1F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7082170E9A900BFD1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7132170E9A900BFD1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		027BF6EF2170E9A800BFD1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027BF6FF2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodeld in Sources */,
+				027BF6F92170E9A800BFD1F7 /* ViewController.swift in Sources */,
+				027BF6F72170E9A800BFD1F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7062170E9A900BFD1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027BF70F2170E9A900BFD1F7 /* FitnessNReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027BF7112170E9A900BFD1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027BF71A2170E9A900BFD1F7 /* FitnessNReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027BF70C2170E9A900BFD1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027BF6F22170E9A800BFD1F7 /* FitnessNReminder */;
+			targetProxy = 027BF70B2170E9A900BFD1F7 /* PBXContainerItemProxy */;
+		};
+		027BF7172170E9A900BFD1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027BF6F22170E9A800BFD1F7 /* FitnessNReminder */;
+			targetProxy = 027BF7162170E9A900BFD1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		027BF6FA2170E9A800BFD1F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027BF6FB2170E9A800BFD1F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		027BF7022170E9A900BFD1F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027BF7032170E9A900BFD1F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		027BF71C2170E9A900BFD1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		027BF71D2170E9A900BFD1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		027BF71F2170E9A900BFD1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		027BF7202170E9A900BFD1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		027BF7222170E9A900BFD1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessNReminder.app/FitnessNReminder";
+			};
+			name = Debug;
+		};
+		027BF7232170E9A900BFD1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessNReminder.app/FitnessNReminder";
+			};
+			name = Release;
+		};
+		027BF7252170E9A900BFD1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessNReminder;
+			};
+			name = Debug;
+		};
+		027BF7262170E9A900BFD1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessNReminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineout.book.FitnessNReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessNReminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027BF6EE2170E9A800BFD1F7 /* Build configuration list for PBXProject "FitnessNReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027BF71C2170E9A900BFD1F7 /* Debug */,
+				027BF71D2170E9A900BFD1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027BF71E2170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027BF71F2170E9A900BFD1F7 /* Debug */,
+				027BF7202170E9A900BFD1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027BF7212170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027BF7222170E9A900BFD1F7 /* Debug */,
+				027BF7232170E9A900BFD1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027BF7242170E9A900BFD1F7 /* Build configuration list for PBXNativeTarget "FitnessNReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027BF7252170E9A900BFD1F7 /* Debug */,
+				027BF7262170E9A900BFD1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		027BF6FD2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				027BF6FE2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodel */,
+			);
+			currentVersion = 027BF6FE2170E9A800BFD1F7 /* FitnessNReminder.xcdatamodel */;
+			path = FitnessNReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 027BF6EB2170E9A800BFD1F7 /* Project object */;
+}
